@@ -1,0 +1,106 @@
+@charset "UTF-8";
+
+@font-face {
+  font-family: "Alegreya";
+  src: url('alegreyar.otf');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Alegreya";
+  src: url('alegreyai.otf');
+  font-weight: 400;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Alegreya Sans";
+  src: url('alegreyam.otf');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Alegreya Sans";
+  src: url('alegreyami.otf');
+  font-weight: 500;
+  font-style: italic;
+}
+
+html {
+  font-size: 1.2rem;
+}
+
+body {
+  margin: 40px auto;
+  max-width: 650px;
+  line-height: 1.6;
+  font-family: "Alegreya", Georgia, serif;
+  font-size: 18px;
+  color: #444;
+  padding: 0 10px
+}
+
+h1 {
+  font-weight: 300;
+  margin-top: 4rem;
+  margin-bottom: 1.5rem;
+  font-size: 3.2rem;
+  line-height: 1.2;
+}
+
+h2 {
+  font-style: italic;
+  font-weight: 300;
+  margin-top: 2.1rem;
+  margin-bottom: 1.4rem;
+  font-size: 2.2rem;
+  line-height: 1.2;
+}
+
+h3 {
+  font-style: italic;
+  font-weight: 300;
+  font-size: 1.7rem;
+  margin-top: 2rem;
+  margin-bottom: 1.4rem;
+  line-height: 1.2;
+}
+
+pre {
+  font-family: monospace;
+  font-weight: normal;
+  font-size: 14px;
+}
+
+code {
+  font-family: monospace;
+  font-size: .8rem;
+  line-height: 1.6;
+  max-width: 66ch;
+  min-height: 100%;
+}
+
+img {
+  text-indent: 0em;
+}
+
+a {
+  text-decoration: none;
+}
+
+* {
+  cursor: url(cursor.png), auto;
+}
+
+.mode_class {
+  /*display: flex;
+    justify-content: center;
+    padding-top: 200px;*/
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  margin-top: 20px;
+  margin-right: 20px;
+}
